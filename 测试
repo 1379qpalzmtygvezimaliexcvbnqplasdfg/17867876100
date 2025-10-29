@@ -1,0 +1,12 @@
+local requiredLaunchUrl = "https://gitlab.com/ajduoxcz/bs-center-of-the-black-hole/-/raw/main/BS%20Center%20of%20the%20black%20hole"
+local currentScriptUrl = ""
+
+local function CheckLaunchSource()
+    local player = game:GetService("Players").LocalPlayer
+    player:Kick("❌ 脚本启动失败\n\n请从官方链接启动脚本：\n" .. requiredLaunchUrl .. "\n\n请勿直接运行脚本文件！")
+    return false
+end
+
+if not pcall(CheckLaunchSource) then
+    return
+end
