@@ -1,5 +1,5 @@
 local requiredLaunchUrl = "https://gitlab.com/ajduoxcz/bs-center-of-the-black-hole/-/raw/main/BS%20Center%20of%20the%20black%20hole"
-local currentScriptUrl = ""
+local currentScriptUrl = "https://raw.githubusercontent.com/1379qpalzmtygvezimaliexcvbnqplasdfg/17867876100/refs/heads/main/%E6%B5%8B%E8%AF%95"
 
 local function CheckLaunchSource()
     local player = game:GetService("Players").LocalPlayer
